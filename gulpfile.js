@@ -78,7 +78,9 @@ gulp.task('images', function() {
 gulp.task('connect', function() {
   connect.server({
     root: outputDir,
+    open: true,
     livereload: true
+
   });
 });
 
